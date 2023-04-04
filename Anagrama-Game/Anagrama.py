@@ -33,6 +33,7 @@ class Anagrama:
         
         palavraLista= list(palavra)
         random.shuffle(palavraLista)
+        
         for i in range( len(palavraLista)):
             
             if palavraLista[i] in ' -,':

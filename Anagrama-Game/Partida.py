@@ -1,4 +1,5 @@
 from Anagrama import Anagrama,AnagramaException
+from Anagrama import Anagrama,AnagramaException
 import random
 
 class Partida:        
@@ -53,6 +54,8 @@ class Partida:
         if palpite == self.__anagrama.palavraEmbaralhada: return True # o usuário adivinhou!
         else: return False # O usuário errou!
     
+    
+
     #== == == == Dicas    
     def sortearDica(self):
         '''Retorna uma dica aleatória:
